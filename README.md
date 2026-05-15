@@ -39,6 +39,14 @@ A solar technician can repair an inverter for 3 hours and earn **3 skill points*
 ---
 
 ## Core Features
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/700997ae-0168-474a-9ced-f898564ac986" height="360" />
+  <img src="https://github.com/user-attachments/assets/32fba08b-fb1b-415d-838c-e409b65ccf29" height="360" />
+  <img src="https://github.com/user-attachments/assets/ddfce69c-c419-4dbb-b287-b5cd2d59c0db" height="360" />
+  <img src="https://github.com/user-attachments/assets/06da8ee0-f415-48ff-a273-b4cd36434400" height="360" />
+  <img src="https://github.com/user-attachments/assets/5d434535-052d-4457-8c0c-6a1ed82c191a" height="360" />
+</p>
+
 
 ### Skill Profile
 
