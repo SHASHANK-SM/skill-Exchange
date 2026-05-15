@@ -1,54 +1,82 @@
 # Skill-Exchange
 
-Skill-Exchange is a Kotlin + XML Android project for a rural self-employment barter platform where technicians exchange skills, services, and time-based skill points.
+<div align="center">
 
-## Built With
+## Rural Skill Barter & Self-Employment Platform
 
-- Kotlin
-- XML layouts with ViewBinding
-- Material Design Components
-- Firebase Firestore
-- Firebase Auth anonymous sign-in
-- RecyclerView and CardView
+**Skill-Exchange** is a modern Android app built for rural technicians, workers, and service providers to exchange skills, services, and time-based value without depending only on cash payments.
+
+**1 Hour = 1 Skill Point**
+
+</div>
+
+---
+
+## About The App
+
+Skill-Exchange helps rural communities build a trusted local service network where people can post needs, offer their skills, negotiate swaps, earn skill points, and improve their trust score after successful service exchanges.
+
+Example:
+
+A solar technician can repair an inverter for 3 hours and earn **3 skill points**, then use those points to receive tailoring, tractor work, pump repair, welding, or other local services.
+
+---
+
+## App Highlights
+
+- Beautiful Material Design UI
+- Kotlin + XML based Android project
+- Firebase Firestore integration
 - Bottom Navigation with Fragments
+- RecyclerView and CardView lists
+- ViewBinding enabled
+- Chat-like negotiation screen
+- Skill point based barter system
+- Trust score system
+- Need posts filterable by required skill
+- Community-friendly rural technician theme
 
-## Core Logic
+---
 
-- `1 hour = 1 skill point`
-- Need posts can be filtered by required skill.
-- Swap offers move through pending, accepted, and completed states.
-- Trust score increases only after both users confirm a completed swap.
+## Core Features
 
-## Firebase Setup
+### Skill Profile
 
-The project includes a placeholder `app/google-services.json` so the structure opens cleanly in Android Studio. Replace it with your real Firebase Android config for package:
+Users can maintain a profile showing:
+
+- Name
+- Village or location
+- Skills offered
+- Skill points available
+- Completed swaps
+- Trust score
+
+---
+
+### Need Posts
+
+Community members can post service needs such as:
+
+- Solar inverter repair
+- Borewell pump service
+- Welding work
+- Electrical repair
+- Farming equipment support
+
+Each need post includes:
+
+- Required skill
+- Location
+- Estimated hours
+- Skill point value
+- Description
+- Posted by user
+
+---
+
+### Skill Point System
+
+The app uses a simple and fair time-based exchange rule:
 
 ```text
-com.rural.skill_exchange
-```
-
-Create these Firestore collections:
-
-- `profiles`
-- `needs`
-- `offers`
-- `negotiations`
-
-The app also seeds friendly sample content locally so screens are useful before Firestore has data.
-
-## Open In Android Studio
-
-1. Open this folder in Android Studio.
-2. Sync Gradle.
-3. Replace `app/google-services.json` with your real Firebase file.
-4. Run the app on an emulator or physical device.
-
-## Main Files
-
-- `app/src/main/java/com/rural/skill_exchange/MainActivity.kt`
-- `app/src/main/java/com/rural/skill_exchange/data/FirebaseRepository.kt`
-- `app/src/main/java/com/rural/skill_exchange/ui/home/HomeFragment.kt`
-- `app/src/main/java/com/rural/skill_exchange/ui/needs/NeedsFragment.kt`
-- `app/src/main/java/com/rural/skill_exchange/ui/offers/OffersFragment.kt`
-- `app/src/main/java/com/rural/skill_exchange/ui/profile/ProfileFragment.kt`
-- `app/src/main/java/com/rural/skill_exchange/ui/chat/NegotiationFragment.kt`
+1 hour of service = 1 skill point
