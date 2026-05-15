@@ -1,0 +1,14 @@
+<resources>
+    <color name="seed_green">#2E7D32</color>
+    <color name="forest">#164A2F</color>
+    <color name="leaf">#43A047</color>
+    <color name="sun">#F9A825</color>
+    <color name="clay">#C65D35</color>
+    <color name="river">#1976D2</color>
+    <color name="cream">#FFF8E6</color>
+    <color name="surface">#FFFCF4</color>
+    <color name="ink">#1B1D18</color>
+    <color name="muted_ink">#677066</color>
+    <color name="card_stroke">#E2DCCB</color>
+    <color name="white">#FFFFFF</color>
+</resources>
